@@ -4,7 +4,7 @@ with open('text_to_parse.txt', 'r') as file:
 lines = raw_data.splitlines()
 
 data= [['State', 'Abbre.', 'Postal_Code']]
-for line in lines[6:]:
+for line in lines[5:]:
 
     values = line.split() 
 
