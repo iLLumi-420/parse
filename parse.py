@@ -6,7 +6,7 @@ lines = raw_data.splitlines()
 data= [['State', 'Abbre.', 'Postal_Code']]
 for line in lines[5:]:
 
-    values = line.split() 
+    values = line.split('   ') 
 
     state = values[0]
     abbr = values[1]
